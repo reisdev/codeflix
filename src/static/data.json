@@ -1,0 +1,27 @@
+{
+    "categories": [{
+        "name": "Python",
+        "color": "#254E71",
+        "videos": [{
+                "id": "IJ50m08PNBs"
+            },
+            {
+                "id": "N2uX0Axx2YQ"
+            },
+            {
+                "id": "mUpApTEYaW8"
+            },
+            {
+                "id": "zVdnopPLnKE"
+            }
+        ]
+    }, {
+        "name": "Javascript",
+        "color": "#2929ff",
+        "videos": [{
+            "id": "3EkS9-P3cIM"
+        }, {
+            "id": "ZfObt9pPNRg"
+        }]
+    }]
+}

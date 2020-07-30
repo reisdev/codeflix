@@ -97,47 +97,9 @@ export const WatchButton = styled(ButtonLink)`
     }
 `
 
-export const CategorySession = styled.section`
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-`
-
-export const CategoryTitle = styled.h2`
-    padding: 20px;
-    margin-left:20px;
-    font-size: 2rem;
-    font-weight: 600;
-    width: fit-content;
-    background-color: ${props => props.color};
-    color: var(--white);
-    border-radius: 10px;
-    /* box-shadow: 2px 3px 15px black; */
-`
-
 export const ScrollContainer = styled.div`
     overflow-x: auto;
     display: flex;
     width: auto;
     padding: 10px;
-`
-
-
-interface VideoPreviewProps {
-    color: string;
-    image: string;
-}
-
-export const VideoPreview = styled.a.attrs({
-    target: "_blank",
-    rel: "noopener noreferrer"
-}) <VideoPreviewProps>`
-    border: 5px solid ${props => props.color};
-    background-image: url(${props => props.image});
-    background-position: center center;
-    background-size: cover;
-    min-height: 270px;
-    min-width: 475px;
-    margin: 10px;
-    border-radius: 8px;
 `

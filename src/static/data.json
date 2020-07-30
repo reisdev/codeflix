@@ -2,36 +2,35 @@
     "categories": [{
         "name": "Python",
         "color": "#254E71",
-        "videos": [{
-            "id": "IJ50m08PNBs"
-        }, {
-            "id": "N2uX0Axx2YQ"
-        }, {
-            "id": "mUpApTEYaW8"
-        }, {
-            "id": "zVdnopPLnKE"
-        }]
+        "videos": ["https://youtu.be/IJ50m08PNBs", "https://youtu.be/N2uX0Axx2YQ",
+            "https://youtu.be/mUpApTEYaW8", "https://youtu.be/zVdnopPLnKE",
+            "https://youtu.be/Q1iPPkAk_Ho", "https://youtu.be/-LATVnPcvHI",
+            "https://youtu.be/uOgDa1rlqjE"
+        ]
     }, {
         "name": "Javascript",
-        "color": "#2929ff",
-        "videos": [{
-            "id": "3EkS9-P3cIM"
-        }, {
-            "id": "ledmemIH9jA"
-        }, {
-            "id": "ZfObt9pPNRg"
-        }]
+        "color": "#F7E018",
+        "fontColor": "black",
+        "videos": ["https://youtu.be/3EkS9-P3cIM", "https://youtu.be/ledmemIH9jA",
+            "https://youtu.be/ZfObt9pPNRg", "https://youtu.be/BXqUH86F-kA",
+            "https://youtu.be/evBGq29wr08", "https://youtu.be/vrSEt5J4q2Y"
+        ]
     }, {
         "name": "PHP",
         "color": "#8993C1",
-        "videos": [{
-            "id": "DK7YYyMN1Fw"
-        }]
+        "videos": ["https://youtu.be/DK7YYyMN1Fw", "https://youtu.be/_RBYqp7UVAg",
+            "https://youtu.be/hNr58pKj-Cw", "https://youtu.be/s9CH7-U7-ZQ",
+            "https://youtu.be/H43fXodv6WY", "https://youtu.be/Wp97fsuwnWw"
+        ]
     }, {
         "name": "Java",
         "color": "#D00000",
-        "videos": [{
-            "id": "1dcYN3qlJkY"
-        }]
+        "videos": ["https://youtu.be/1dcYN3qlJkY",
+            "https://youtu.be/fMdVW91QOus",
+            "https://youtu.be/sZAxLRMxEUo",
+            "https://youtu.be/rrhO_P0IM3s",
+            "https://youtu.be/90NcVNsKGik",
+            "https://youtu.be/sTX0UEplF54"
+        ]
     }]
 }

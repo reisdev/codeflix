@@ -24,7 +24,7 @@ export const MenuStyle = styled.nav`
         bottom: -4px;
         left: 0;
         content: "";
-        width: 100%;
+        width: calc(100% - 4px);
         border: 2px solid #673B8E;      
     }
 `

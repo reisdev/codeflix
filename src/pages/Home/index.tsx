@@ -4,11 +4,11 @@ import {
     HomeStyle, MainSection,
     MainTitle, MainText,
     MainContent,
-    WatchButton, CategoryTitle,
-    CategorySession, IframeWrapper,
-    IFrame, MainBanner,
-    VideoPreview, ScrollContainer
+    WatchButton, IframeWrapper,
+    IFrame, MainBanner
 } from './style';
+
+import Carousel from "../../components/Carousel";
 
 import data from "../../static/data.json";
 
@@ -34,17 +34,7 @@ const Home = () => {
             </MainBanner>
         </MainSection>
         {data.categories.map((category) => (
-            <CategorySession>
-                <CategoryTitle color={category.color}>{category.name}</CategoryTitle>
-                <ScrollContainer>
-                    {category.videos.map(video =>
-                        <VideoPreview
-                            color={category.color}
-                            href={`https://youtu.be/${video.id}`}
-                            image={`https://img.youtube.com/vi/${video.id}/maxresdefault.jpg`}
-                        />)}
-                </ScrollContainer>
-            </CategorySession>
+            <Carousel key={category.name} category={category} />
         ))}
     </HomeStyle >
 }

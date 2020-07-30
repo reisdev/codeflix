@@ -1,7 +1,7 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const ButtonLink = styled(NavLink)`
+export const ButtonLink = styled(Link)`
     padding: 10px;
     font-size: 1rem;
     border-radius: 5px;

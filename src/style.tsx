@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
     body {
-        background-color: #181818;
+        background-color: var(--darkGrey);
         color: var(--white);
     }
     * {
@@ -19,8 +19,8 @@ export const GlobalStyle = createGlobalStyle`
         --grayLight: #F5F5F5;
         --grayMedium: #e5e5e5; 
         --white: #FFFFFF;
-        --frontEnd: #6BD1FF;
-        --backEnd: #00C86F;
+        --darkGrey: #181818;
+        --purple: #673B8E;
     }
 
     a {

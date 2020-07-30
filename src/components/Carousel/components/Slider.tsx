@@ -11,11 +11,11 @@ const Container = styled.ul`
     top: 0;
     bottom: 0;
     margin: auto;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     transform: initial;
     &:before {
-      font-size: 30px;
+      font-size: 45px;
     }
   }
   
@@ -23,7 +23,7 @@ const Container = styled.ul`
     left: 0;
   }
   .slick-next {
-    right: 16px;
+    right: 5px;
   }
 `;
 

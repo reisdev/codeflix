@@ -19,8 +19,7 @@ export const VideoCard = styled.a.attrs({
     background-image: ${({ image }) => `url(${image})`};
     background-position: center center;
     background-size: cover;
-    min-height: 230px;
-    min-width: 400px;
+    
     margin: 15px;
     border-radius: 8px;
     transition: all 100ms ease-in;
@@ -29,10 +28,17 @@ export const VideoCard = styled.a.attrs({
     display:flex;
     cursor: pointer;
     align-items: flex-end;
+    width: 340px;
+    height: 197px;  
 
     &:hover {
         opacity: .7;
         transform: scale(1.05);
+    }
+
+    @media screen and (min-width: 1280px){ 
+        height: 230px;
+        width: 400px;
     }
 `
 

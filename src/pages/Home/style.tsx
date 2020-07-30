@@ -34,7 +34,7 @@ export const MainSection = styled.section`
 `
 
 export const MainTitle = styled.h2`
-    font-size: 4rem;
+    font-size: 3em;
     margin-bottom: 30px;
 `
 
@@ -55,8 +55,11 @@ export const MainContent = styled.section`
 `
 
 export const MainText = styled.p`
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 20px;
+    @media screen and (max-width: 768px) {
+        display: none
+    }
 `
 
 export const MainBanner = styled.section`
@@ -92,6 +95,7 @@ export const IFrame = styled.iframe.attrs({
 
 export const WatchButton = styled(ButtonLink)`
     margin-top: 20px;
+    font-size: 2rem;
     @media screen and (min-width: 768px){
         display: none;
     }

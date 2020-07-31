@@ -1,18 +1,18 @@
 import styled from 'styled-components';
 
 export const FooterStyle = styled.footer`
-    text-align: center;
     padding: 20px;
-    background-color: var(--darkGrey);
+    text-align: center;
     font-size: 1.2rem;
+    background-color: var(--darkGrey);
 
     &::before {
+        content: "";
         display: block;
         position: relative;
         bottom: 20px;
         left: -20px;
-        content: "";
-        width: calc(100vw - 24px);
+        width: calc(100% + 35px);
         border: 2px solid var(--purple);      
     }
 `;

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { MenuStyle, Logo, NewVideo } from "./style";
+import { Link } from 'react-router-dom';
 
 interface MenuProps {
     title?: string;
@@ -8,8 +9,10 @@ interface MenuProps {
 
 const Menu: React.FC<MenuProps> = () => {
     return <MenuStyle>
-        <Logo />
-        <NewVideo to="/new-video">
+        <Link to="/">
+            <Logo />
+        </Link>
+        <NewVideo to="/register/video">
             Novo vídeo
         </NewVideo>
     </MenuStyle>

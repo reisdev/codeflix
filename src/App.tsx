@@ -1,15 +1,21 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
-import Menu from "./components/Menu"
+import Router from './components/Routes';
+import Menu from './components/Menu';
+import Footer from './components/Footer';
 import { GlobalStyle } from './style';
-import Router from './router';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <GlobalStyle />
-      <Router />
-    </div>
+      <BrowserRouter>
+        <Menu />
+        <Router />
+        <Footer />
+      </BrowserRouter>
+    </>
   );
 }
 

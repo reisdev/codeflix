@@ -1,15 +1,15 @@
 import React, { useState, useCallback } from "react";
-import Page from "../../components/Page";
+import PageWrapper from "../../components/PageWrapper";
 
 import Form from "../../components/Form";
-import Field from "../../components/Form/components/Field";
-import Select from "../../components/Form/components/Select";
+import Field from "../../components/Form/Field";
+import Select from "../../components/Form/Select";
 import data from "../../static/data.json";
 import { Button } from "./style";
 
 const options = data.categories.map((category) => ({
-    label: category.name,
-    value: category.name,
+  label: category.name,
+  value: category.name,
 }));
 
 const RegisterVideo: React.FC = () => {
@@ -33,7 +33,7 @@ const RegisterVideo: React.FC = () => {
   );
 
   return (
-    <Page>
+    <PageWrapper>
       <Form onSubmit={addVideo}>
         <Field
           name="title"
@@ -65,7 +65,7 @@ const RegisterVideo: React.FC = () => {
         />
         <Button>Salvar</Button>
       </Form>
-    </Page>
+    </PageWrapper>
   );
 };
 

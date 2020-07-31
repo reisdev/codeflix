@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
 import Router from './components/Routes';
-import Menu from './components/Menu';
 import Footer from './components/Footer';
+import Header from './components/Header';
 import { GlobalStyle } from './style';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <>
       <GlobalStyle />
       <BrowserRouter>
-        <Menu />
+        <Header />
         <Router />
         <Footer />
       </BrowserRouter>
